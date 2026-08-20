@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0d0e">
+  <title>Hand Gesture AI</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✋</text></svg>">
+  <link rel="stylesheet" href="styles.css?v=3">
+</head>
+<body>
+  <main class="gesture-app">
+    <div class="camera-view">
+      <video id="live-video" playsinline muted></video>
+      <canvas id="live-canvas"></canvas>
+    </div>
+    <div class="gesture-result" aria-live="polite">
+      <div id="gesture-emoji">◌</div>
+      <h1 id="gesture-name">Kamera wird gestartet …</h1>
+      <p id="camera-status">Bitte erlaube den Kamerazugriff.</p>
+    </div>
+  </main>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script defer src="app.js?v=8"></script>
+</body>
+</html>

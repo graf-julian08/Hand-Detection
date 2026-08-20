@@ -1,0 +1,2 @@
+# Keine Python-Abhängigkeiten: Die Anwendung läuft vollständig im Browser.
+# Für die lokale Entwicklung kann Pythons eingebauter HTTP-Server verwendet werden.
